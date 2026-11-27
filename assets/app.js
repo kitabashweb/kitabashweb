@@ -20,7 +20,7 @@
       blurb: "Speak, read and write with confidence, from neat handwriting to stage-ready speaking.",
       subjects: ["Spoken English", "English Grammar & Vocabulary", "Handwriting & Penmanship", "Reading Comprehension", "Creative Writing", "Storytelling", "Public Speaking", "Debate & Communication", "Presentation Skills", "Interview & GD preparation", "IELTS / TOEFL preparation"] },
     { id: "life", name: "Life & Financial Skills", cls: "c-life", icon: "₹",
-      blurb: "Money sense, study habits and safe online life for children and young adults.",
+      blurb: "Money sense, study habits and safe online life for school and college students.",
       subjects: ["Financial Literacy", "Saving & Budgeting", "Needs vs Wants", "Money Management", "Financial Decision-Making", "Entrepreneurship", "Digital Citizenship & Online Safety", "Study Skills & Time Management"] },
     { id: "other", name: "Something else", cls: "c-other", icon: "?",
       blurb: "Can't find it? Tell us what you need and we'll find the right mentor.",
@@ -100,7 +100,6 @@
     $("#gradeField").hidden = !school;
     $("#boardField").hidden = !school;
     $("#branchField").hidden = v !== "College / engineering student";
-    $("#workField").hidden = v !== "Working professional";
   }
   learner.addEventListener("change", toggleLearner);
 
@@ -157,7 +156,6 @@
       ["Class / grade", visible($("#grade")) ? f.grade.value : ""],
       ["Board", visible($("#grade")) ? f.board.value : ""],
       ["Course / year", visible($("#courseYear")) ? f.course_year.value.trim() : ""],
-      ["Role / industry", visible(f.role) ? f.role.value.trim() : ""],
       ["Area", cat ? cat.name : ""],
       ["Subject", subject],
       ["Kind of help", (form.querySelector('input[name="help_type"]:checked') || {}).value || ""],
