@@ -22,9 +22,6 @@
     { id: "life", name: "Life & Financial Skills", cls: "c-life", icon: "₹",
       blurb: "Money sense, study habits and safe online life for children and young adults.",
       subjects: ["Financial Literacy", "Saving & Budgeting", "Needs vs Wants", "Money Management", "Financial Decision-Making", "Entrepreneurship", "Digital Citizenship & Online Safety", "Study Skills & Time Management"] },
-    { id: "pro", name: "AI for Professionals", cls: "c-pro", icon: "★",
-      blurb: "Practical AI for your job: prompts, workflows, policy and pilots for 20 industries.",
-      subjects: ["HR", "Sales", "Marketing", "Education & Teaching", "Customer Support", "Finance & Accounting", "Healthcare", "Legal", "Operations & Supply Chain", "Real Estate", "Small Business", "Software & IT", "Banking", "Insurance", "Retail & E-commerce", "Manufacturing", "Hospitality", "Government & Public Sector", "Media & Content", "Agriculture"] },
     { id: "other", name: "Something else", cls: "c-other", icon: "?",
       blurb: "Can't find it? Tell us what you need and we'll find the right mentor.",
       subjects: [] }

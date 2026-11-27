@@ -1,6 +1,6 @@
 # Kitabash Academy website
 
-A one-page website where learners post what they want to learn (coding, engineering subjects, school academics, English, money skills, AI for professionals or anything else) along with their contact details. Each request comes to you so you can contact the learner personally.
+A one-page website where learners post what they want to learn (coding, engineering subjects, school academics, English, money skills or anything else) along with their contact details. Each request comes to you so you can contact the learner personally.
 
 It is a plain static site (HTML, CSS and JavaScript, with no build step), so GitHub Pages can host it for free.
 
