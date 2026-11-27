@@ -10,11 +10,11 @@ window.ACADEMY_CONFIG = {
 
   // 2. Your WhatsApp number with country code, digits only. Example: "919876543210".
   //    Shows a WhatsApp button and is used as a backup if the email service is not set up.
-  whatsappNumber: "",
+  whatsappNumber: "918999290618",
 
   // 3. Public contact email shown on the site (optional). Example: "hello@kitabash.com".
   contactEmail: "",
 
   // 4. Phone number shown on the site (optional). Example: "+91 98765 43210".
-  contactPhone: "",
+  contactPhone: "+91 89992 90618",
 };
